@@ -19,6 +19,7 @@ const dog; // This code will not even run. JS marks this as a syntax error
 ```
 *2-* `Javascript only hoists declarations, not initializations.` This is extremly important
 ```js
-dog = "Pluto";
-let dog; // This will result in a ReferenceError
+var brand = "Jhon";
+console.log(brand, category); // This will results in undefined for category
+var category = "Doe";
 ```
