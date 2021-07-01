@@ -2,7 +2,7 @@
 function askForHelp() {
   message = "Mayday!";
   console.log(message);
-  var message; // Declaration is hoisted to the top <..>/
+  var message; // Declaration is hoisted to the top of the current scope <..>/
 }
 askForHelp();
 
